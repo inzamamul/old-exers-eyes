@@ -1,5 +1,14 @@
 /* Empty. Add your own CSS if you like */
 
-h1 { 
+#dash-header { 
 	text-align: center;
 	}
+
+#dash-image {
+
+	margin: auto;
+	width: 35%;
+	padding: 10px;
+
+	
+}
