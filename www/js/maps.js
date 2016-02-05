@@ -1,27 +1,3 @@
-<ion-view view-title="Settings">
-  <ion-content>
-    <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
-    </ion-list>
-  </ion-content>
-
-
-<style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      #map {
-        height: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="map"></div>
-    <script>
 // Note: This example requires that you consent to location sharing when
 // prompted by your browser. If you see the error "The Geolocation service
 // failed.", it means you probably did not give permission for the browser to
@@ -60,10 +36,3 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
                         'Error: The Geolocation service failed.' :
                         'Error: Your browser doesn\'t support geolocation.');
 }
-
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&signed_in=true&callback=initMap"
-        async defer>
-    </script>
-
-</ion-view>

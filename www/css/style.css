@@ -6,9 +6,14 @@
 
 #dash-image {
 
-	margin: auto;
-	width: 35%;
-	padding: 10px;
-
+	width: 250px;
+	height: auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 	
+}
+
+#p-settings {
+	text-align: center;
 }
