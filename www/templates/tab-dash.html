@@ -1,9 +1,13 @@
+<!-- Google Maps JavaScript API key: AIzaSyAUt7zxn1tF4TW8sPLL-AfayxXChgESb9Q -->
+
+
+<script src="geoloc.js"></script>
+
 <ion-view view-title="Dashboard">
   <ion-content class="padding">
     
   <div id="dash-header">
     <h2 id="dash-header">Welcome to Exers-eyes</h2>
-    <p>Please login below.</p>
   </div>
 
     <img id="dash-image" src="img/walking.jpg">
@@ -12,6 +16,18 @@
     <button class="button button-block button-positive">Tap to begin exercising!</button>
 
   </div> 
- 
+
+
+  <div> <!-- GeoLocation  -->
+
+
+      <div id="map"></div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/googlemapsJS.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUt7zxn1tF4TW8sPLL-AfayxXChgESb9Q"> </script>
+
+
+  </div>
+
   </ion-content>
 </ion-view>
